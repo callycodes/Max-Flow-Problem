@@ -10,13 +10,15 @@ package com.callycodes.maxflowproblem;
  *
  * @author Callum Bass <w1682693>
  */
-public class Main {
+public class Graph {
     
-    static int[][] graph;
-    
-    public static void main(String[] args) {
-        graph = Graph.createGraph();
-        System.out.println("Max Flow Problem");
+    public static int[][] createGraph() {
+        return new int[][] 
+        {
+            {0, 3, 4, 0, 0},
+            {3, 2, 3, 0, 0},
+            {0, 3, 4, 5, 0}
+        };
     }
     
 }
