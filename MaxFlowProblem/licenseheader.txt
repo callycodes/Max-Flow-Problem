@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Name: Callum Bass
+${licensePrefix}Student Number: w1682693
+${licensePrefix}Group: 5SENG001W/2
+${licensePrefix}University of Westminster - Coursework
+<#if licenseLast??>
+${licenseLast}
+</#if>
